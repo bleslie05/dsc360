@@ -1,15 +1,15 @@
 .*
 !.gitignore
-Data# Ignore all hidden files and folders
+Data
 .*
 !.gitignore
 
-# Python cache files
+
 __pycache__/
 *.py[cod]
 *.so
 
-# Virtual environments
+
 venv/
 env/
 
@@ -31,6 +31,12 @@ datasets/
 *.npz
 *.pkl
 *.ckpt
+*.zip
+*.jpg
+*.png
+*.tar
+*.tar.gz
+
 
 # Model outputs and logs
 logs/

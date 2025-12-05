@@ -1,0 +1,55 @@
+.*
+!.gitignore
+Data
+.*
+!.gitignore
+
+
+__pycache__/
+*.py[cod]
+*.so
+
+
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# IDE/project files
+.idea/
+.vscode/
+
+# Data folders
+Data/
+datasets/
+*.csv
+*.h5
+*.npz
+*.pkl
+*.ckpt
+*.zip
+*.jpg
+*.png
+*.tar
+*.tar.gz
+
+# Cleanliness
+*.py
+
+# Model outputs and logs
+logs/
+checkpoints/
+saved_models/
+runs/
+
+# Temporary files
+*.tmp
+*.log
+
+# Colab/Notebook output folders
+*.ipynb_convert/
+
